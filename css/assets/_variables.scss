@@ -1,20 +1,23 @@
 // GENERAL
-	$main_font: Arial;//MAIN FONT
+	// $main_font: Arial;//MAIN FONT
 	$main_width: 100%;//MAIN CONTENT WIDTH
-	$main_black: #222222;
+	// $main_black: #222222;
+	$main_font: 'Roboto', serif;
+	$main_black: #8c827b;
+	$main_green: #91af2b;
 
 // NAVIGATION
-	$navbar-default-bg: green;//NAV BACKGROUND
-	$navbar-default-border: yellow;//NAV BORGER
+	$navbar-default-bg: #fff;//NAV BACKGROUND
+	$navbar-default-border: $main_black;//NAV BORGER
 	$navbar-default-brand-color: blue;//BRAND TEXT 
 	$navbar-default-brand-hover-color: vlack;//BRAND TEXT HOVER
 	$navbar-default-brand-hover-bg: purple;//BRAND BACKGROUND HOVER
-	$navbar-default-color: white;//NAV TEXT COLOR
-	$navbar-default-link-color: white;//NAV LINK COLOR
-	$navbar-default-link-hover-color: purple; //NAV LINK HOVER
-	$navbar-default-link-hover-bg: yellow;//NAV BACKGROUND HOVER
-	$navbar-default-link-active-color: red;//NAV ACTIVE COLOR
-	$navbar-default-link-active-bg: grey;// NAV ACTIVE BACKGROUND
+	$navbar-default-color: #614c3c;//NAV TEXT COLOR
+	$navbar-default-link-color: #614c3c;//NAV LINK COLOR
+	$navbar-default-link-hover-color: #fff; //NAV LINK HOVER
+	$navbar-default-link-hover-bg: $main_green;//NAV BACKGROUND HOVER
+	$navbar-default-link-active-color: #fff;//NAV ACTIVE COLOR
+	$navbar-default-link-active-bg: $main_green;// NAV ACTIVE BACKGROUND
 	
 	// for disabled
 	// $navbar-default-link-disabled-color;

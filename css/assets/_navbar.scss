@@ -8,6 +8,8 @@
 .navbar-default {
   background-color: $navbar-default-bg;
   border-color: $navbar-default-border;
+  font-size: 18px;
+  font-weight: 300;
 
   .navbar-brand {
     color: $navbar-default-brand-color;
@@ -23,6 +25,31 @@
   }
 
   .navbar-nav {
+    display: table;
+    margin: auto;
+    float: none;
+    li {
+      border-left: 1px solid $main_black;
+      &:last-child {
+        border-right: 1px solid $main_black;
+      }
+    }
+    a {
+      padding-left: 30px;
+      padding-right: 30px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      &:hover,
+      &:active {
+        -webkit-transition: background-color 0.5s 0s ease-in-out;
+        -moz-transition: background-color 0.5s 0s ease-in-out;
+        -o-transition: background-color 0.5s 0s ease-in-out;
+        -ms-transition: background-color 0.5s 0s ease-in-out;
+        transition: background-color 0.5s 0s ease-in-out;
+        background-color: $navbar-default-link-hover-bg;
+      }
+
+    }
     > li > a {
       color: $navbar-default-link-color;
 

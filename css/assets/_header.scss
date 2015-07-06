@@ -1,0 +1,31 @@
+.pre_header {
+	padding: 20px 23px 20px 10px;
+	font-size: 14px;
+	p {
+		display: inline-block;
+		font-weight: 200;
+		margin-right: 60px;
+	}
+	a {
+		color: $main_black;
+		font-weight: 200;
+		&:hover {
+			text-decoration: none;
+			cursor: pointer;
+		}
+	}
+	.socials {
+		float: right;
+		.fa-vk {
+			margin-right: 37px;
+		}
+	}
+}
+.header_main {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	img {
+		display: table;
+		margin: auto;
+	}
+}
